@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minha Loja</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#111;
+    color:white;
+}
+
+header{
+    background:#222;
+    padding:20px;
+    text-align:center;
+}
+
+h1{
+    margin:0;
+}
+
+.categorias{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:30px;
+}
+
+.card{
+    background:#2e2e2e;
+    width:250px;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.3s;
+    padding-bottom:20px;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card h2{
+    text-align:center;
+    padding:0 10px;
+}
+
+.card p{
+    padding:10px;
+    text-align:center;
+    color:#ccc;
+}
+
+.botao{
+    display:block;
+    margin:10px 20px;
+    padding:15px;
+    background:#00c853;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.botao:hover{
+    background:#00a844;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🛒 Minha Loja</h1>
+</header>
+
+<div class="categorias">
+
+    <!-- PRODUTO 1 -->
+    <div class="card">
+        <h2>🔥 Emagrecimento Saudável</h2>
+
+        <p>
+            Seu corpo mais leve, sua vida melhor.<br>
+            <strong>R$ 15,00</strong>
+        </p>
+
+        <a href="https://pay.kiwify.com.br/sMb0L34"
+           class="botao">
+            COMPRAR AGORA
+        </a>
+    </div>
+
+    <!-- PRODUTO 2 -->
+    <div class="card">
+        <h2>⚽ Academia de Futebol</h2>
+
+        <p>
+            Aprenda dribles, técnicas e fundamentos do futebol.<br>
+            <strong>R$ 15,00</strong>
+        </p>
+
+        <a href="https://pay.kiwify.com.br/TARPDHV"
+           class="botao">
+            COMPRAR AGORA
+        </a>
+    </div>
+
+    <!-- NOVO PRODUTO -->
+    <div class="card">
+        <h2>💅 Curso de Unhas</h2>
+
+        <p>
+            Aprenda técnicas para fazer unhas lindas.<br>
+            <strong>R$ 15,00</strong>
+        </p>
+
+        <a href="https://pay.kiwify.com.br/cXkf4dx"
+           class="botao">
+            COMPRAR AGORA
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>
